@@ -6,7 +6,7 @@
         const groupAdmins = isGroupMsg ? await client.getGroupAdmins(groupId) : ''
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : false
-        const ownerNumber = ["62xxxxxx@c.us"] // replace with your whatsapp number
+        const ownerNumber = ["6282119629010@c.us"] // replace with your whatsapp number
         const memberLimit = "10"
         cosnt groupLimit = "30"
         const prefix = '#'
